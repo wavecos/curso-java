@@ -40,7 +40,6 @@ public class Lab01 {
 //        frontBack("a")    -> "a"
 //        frontBack("ab")   -> "ba"
     public String frontBack(String str) {
-
         if (str.length() <= 1) {
             return str;
         }
@@ -48,9 +47,7 @@ public class Lab01 {
         char firstChar = str.charAt(0);
         char lastChar = str.charAt(str.length() - 1);
 
-        String result = lastChar + str.substring(1, str.length() - 1) + firstChar;
-
-        return result;
+        return lastChar + str.substring(1, str.length() - 1) + firstChar;
     }
 
 
